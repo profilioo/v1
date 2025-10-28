@@ -31,7 +31,77 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!-- Profilioo Demo Top Bar -->
+<div class="profilioo-demo-bar">
+  <div class="profilioo-container">
+    <span class="profilioo-text">
+      🎨 Template by <a href="https://profilioo.com" target="_blank">Profilioo</a>
+    </span>
+    <a href="https://download.profilioo.com/your-template-link" target="_blank" class="profilioo-btn">
+      ⬇️ Download Template
+    </a>
+  </div>
+</div>
+
+<style>
+/* ---------- Profilioo Demo Top Bar ---------- */
+.profilioo-demo-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 9999;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  font-family: 'Poppins', sans-serif;
+}
+
+.profilioo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.profilioo-text {
+  font-size: 15px;
+}
+
+.profilioo-text a {
+  color: #ffd966;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.profilioo-text a:hover {
+  text-decoration: underline;
+}
+
+.profilioo-btn {
+  background: #fff;
+  color: #1e3a8a;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.profilioo-btn:hover {
+  background: #f3f4f6;
+  color: #1d4ed8;
+}
+
+/* Adjust body to not hide behind bar */
+body {
+  margin-top: 50px;
+}
+</style>
+
     <!-- ===================================
          HEADER & NAVIGATION
          =================================== -->
